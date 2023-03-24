@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-
-//create your first component
 const Home = () => {
 	const [tarea, setTareas] = useState([]);
 	const [inputValue, setInputValue] = useState('');
